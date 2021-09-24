@@ -25,7 +25,7 @@
             }
         }
         else{
-            outputMessage("inValid bill amount");
+            outputMessage("Invalid bill amount");
         }
     
 

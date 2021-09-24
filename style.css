@@ -11,6 +11,7 @@ body{
 }
 .input{
     margin:2rem;
+    
 }
 
 .container{
@@ -18,3 +19,8 @@ body{
     flex-direction: column;
   
 }
+
+.notename
+{
+    border: 1px solid black;
+    
