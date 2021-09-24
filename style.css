@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(19, 230, 131);
+    color:white;
+}
+.description
+{
+    font-size: 2rem;
+    color: black;
+    background-color: rgb(175, 228, 0);
+    
+}
+.input{
+    margin:2rem;
+}
