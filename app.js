@@ -6,19 +6,17 @@
 
  var noteno= document.querySelectorAll(".note-no");
   var message=document.querySelector("#error-message");
-
-  var cashgiven=Number(cashGiven.value);
-  var billamount=Number(billAmount.value);
+  
  
  const avaliableNotes=[2000,500,100,20,10,5,1];
 
  chec.addEventListener("click",function checkbillammount()
     { hideMessage()
-        if(billAmount.value > 0 )
+        if(Number(billAmount.value) > 0 )
         {
-             if(cashGiven.value >=billAmount.value)
+             if(Number(cashGiven.value) >=Number(billAmount.value))
             {     
-                const amountToGive=cashgiven-billamount;
+                const amountToGive=Number(cashGiven.value)-Number(billAmount.value);
                 calculate(amountToGive);
             }
             else
