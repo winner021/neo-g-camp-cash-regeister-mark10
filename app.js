@@ -6,6 +6,9 @@
 
  var noteno= document.querySelectorAll(".note-no");
   var message=document.querySelector("#error-message");
+
+  var cashgiven=Number(cashGiven.value);
+  var billamount=Number(billAmount.value);
  
  const avaliableNotes=[2000,500,100,20,10,5,1];
 
@@ -13,9 +16,9 @@
     { hideMessage()
         if(billAmount.value > 0 )
         {
-            if(cashGiven.value >=billAmount.value)
-            {
-                const amountToGive=cashGiven.value-billAmount.value;
+             if(cashGiven.value >=billAmount.value)
+            {     
+                const amountToGive=cashgiven-billamount;
                 calculate(amountToGive);
             }
             else

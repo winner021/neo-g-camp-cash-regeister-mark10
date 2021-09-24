@@ -12,3 +12,9 @@ body{
 .input{
     margin:2rem;
 }
+
+.conatiner{
+    display:flex;
+    flex-direction: column;
+    width:50vw;
+}
